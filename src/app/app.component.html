@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  
+<ul>
+  <li>
+    <h2><a routerLink="home">Home</a></h2>
+  </li>
+  <li>
+    <h2><a routerLink="contact">Contant</a></h2>
+  </li>
+</ul>
+</div>
+
+User Name : <input type="text" value="Username" [(ngModel)]="uname"><br>
+Password : <input type="password" value="Password" [(ngModel)]="pwd"><br>
+<button type="submit" (click)="fun()">Login</button>
+
+
+<router-outlet></router-outlet>
